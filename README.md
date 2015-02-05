@@ -27,4 +27,4 @@ $ lw-remote
 Remote dashboard url: https://shell.cerevo.com/remote/auth/****
 ```
 
-![lw-remote-usage](docs/lw-remote.gif)
+![lw-remote-usage](doc/lw-remote.gif)
