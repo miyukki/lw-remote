@@ -1,0 +1,31 @@
+{
+  "name": "lw-remote",
+  "version": "0.0.1",
+  "description": "A script to get the remote dashboard url of Cerevo LiveWedge switcher.",
+  "homepage": "https://github.com/miyukki/lw-remote",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miyukki/lw-remote"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cerevo",
+    "livewedge",
+    "liveshell",
+    "switcher",
+    "video"
+  ],
+  "author": "miyukki <yusei1128@gmail.com>",
+  "preferGlobal": true,
+  "bin": {
+    "lw-remote": "./bin/lw-remote"
+  },
+  "scripts": {
+    "postinstall": "coffee -bc ./lw-remote.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "1.7.1",
+    "openurl": "*",
+    "inquirer": "*"
+  }
+}
